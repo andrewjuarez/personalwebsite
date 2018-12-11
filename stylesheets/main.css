@@ -27,3 +27,7 @@ p {
 .badge:hover {
     color: #ffd200;
 }
+
+.name {
+    color: white;
+}
