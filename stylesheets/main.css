@@ -1,11 +1,10 @@
-body, html {
+html {
     height: 100%;
     
 }
 
 .bg-grad {
     background-image: linear-gradient(#0064a4, #1b3d6d);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
