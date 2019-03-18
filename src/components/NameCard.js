@@ -5,10 +5,10 @@ const NameCard = () => {
     return (
         <div className="name-card">
             <h1>Andrew Juarez</h1>
-            <div className="ui breadcrumb">
-            <a className="section" href="https://www.linkedin.com/in/andrewjuarezca/"><i className="linkedin icon"></i></a>
+            <div className="ui breadcrumb links">
+                <a className="section" href="https://www.linkedin.com/in/andrewjuarezca/"><i className="linkedin icon li-icon"></i> LinkedIn</a>
                 <div className="divider">|</div>
-                <a className="section" href="https://github.com/andrewjuarez"><i className="github square icon"></i></a>
+                <a className="section" href="https://github.com/andrewjuarez"><i className="github square icon gh-icon"></i> GitHub</a>
             </div>
             <hr />
         </div>

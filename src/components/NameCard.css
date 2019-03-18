@@ -3,6 +3,26 @@
 }
 
 .name-card h1 {
-    font-size: 78px;
+    font-size: 600%;
+}
+
+.name-card .links a {
+    font-size: 25px;
+    color: black;
+}
+
+.name-card .links a .li-icon {
+    color: #1D73B3;
+}
+
+@media only screen and (max-width: 768px) {
+    .name-card {
+        align-content: center;
+        text-align: center;
+    }
     
+    .name-card h1 {
+        font-size: 300%;
+        
+    }
 }
