@@ -8,12 +8,12 @@ const ContactCard = () => {
                     Let's Connect
                 </div>
                 <div className="description">
-                    Wanna chat? Contact me through 
+                    Want to hire me? I'm currently interviewing
+                    for several positions post graduationg, so act now! Contact me through 
                     &nbsp;
                     <a href="https://www.linkedin.com/in/andrewjuarezca">LinkedIn</a>
                     &nbsp;
-                    if you have any questions
-                    regarding projects, consulting, or networking.
+                    if you have any questions regarding projects, consulting, or networking.
                     <div className="ui list">
                         <div className="item">
                         

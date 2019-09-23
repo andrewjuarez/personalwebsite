@@ -1,5 +1,6 @@
 import React from 'react';
 import Hackathon from './Hackathon';
+import './HackathonsList.css'
 
 // This Component generates Hackathon Components and lists them in a nice segment.
 class HackathonsList extends React.Component {
@@ -66,7 +67,7 @@ class HackathonsList extends React.Component {
 
     render() {
         return (
-            <div className="ui segment">
+            <div className="ui segment hackathons-list">
                 <h4>{this.state.hackathons.length} hackathons attended</h4>
                 {this.renderList()}
             </div>
