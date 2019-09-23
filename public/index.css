@@ -2,3 +2,7 @@ body {
     /*background-image: linear-gradient(to right,#5EC6FF,white,#5EC6FF); */
     /* background-color: #75BEFF; */
 }
+
+.headshot {
+    text-align: center;
+}

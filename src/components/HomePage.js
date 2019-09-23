@@ -26,8 +26,8 @@ class HomePage extends React.Component {
                             <ContactCard />
                     </div>
                     <div className="column">
-                            <img className="headshot ui medium circular image" src={headshot} alt='Andrew' />
-                        </div>
+                        <img className="centered headshot ui medium circular image" src={headshot} alt='Andrew' />
+                    </div>
                     
                 </div>
 
