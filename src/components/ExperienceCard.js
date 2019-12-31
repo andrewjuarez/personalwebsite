@@ -6,8 +6,8 @@ const ExperienceCard = () => {
             <div className="content">
                 <div className="header">Experience</div>
                 <div className="description">
-                    This past summer I interned as <strong>full-stack</strong> software engineer utilizing React, Redux, Node.js, and MySQL. I am capabable of building
-                    and deploying projects on AWS. I was recongized as <a href='https://www.linkedin.com/posts/finityone_finityone-internofthemonth-july2019-activity-6564983047542886400-lKf-'>intern of the month for July</a>.
+                    I have interned as a <strong>full-stack</strong> software engineer for FinityOne, a digital agency specilaizing in FinTech solutions, since the Summer of 2019. 
+                    Our tech stack is comprised of React, React Native, Node, and MySQL. I was recongized as <a href='https://www.linkedin.com/posts/finityone_finityone-internofthemonth-july2019-activity-6564983047542886400-lKf-'>intern of the month of July</a>.
                 </div>
             </div>
         </div>
