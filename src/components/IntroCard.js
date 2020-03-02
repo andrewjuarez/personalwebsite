@@ -6,8 +6,9 @@ const IntroCard = () => {
             <div className="content">
                 <div className="header">Who am I?</div>
                 <div className="description">
-                    A computer science major specializing in networked systems at the University of California, Irvine.
-                    I build software, break things, and learn from my mistakes. I am looking forward to graduating this March.
+                    <p>A computer science major specializing in networked systems at the University of California, Irvine.
+                    I look forward to graduating this March.
+                    Upon graduation I will be joining the Technology Development Program (TDP) at <strong>AT&T</strong> as a software engineer in July.</p>
                 </div>
             </div>
         </div>

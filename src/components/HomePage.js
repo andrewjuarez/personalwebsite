@@ -15,7 +15,7 @@ class HomePage extends React.Component {
                     <NameCard />
                 </div>
 
-                <div className="ui two column stackable grid">
+                <div className="ui mobile reversed two column stackable grid">
                     
                     
                     <div className="column">
@@ -23,6 +23,7 @@ class HomePage extends React.Component {
                             <IntroCard />
                             <ExperienceCard />
                     </div>
+
                     <div className="column">
                         <img className="centered headshot ui medium circular image" src={headshot} alt='Andrew' />
                     </div>

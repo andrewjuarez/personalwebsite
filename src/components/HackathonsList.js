@@ -8,6 +8,7 @@ class HackathonsList extends React.Component {
         count: 0,
         hackathons: [
             {
+<<<<<<< HEAD
                 name: "QWER Hacks 2020",
                 description: `MLH's first official LGBTQIA hackathon hosted at UCLA. Our team of 4 was
                 focused on sustainability. Given that water consumption is beyond than what is neccessary,
@@ -17,6 +18,9 @@ class HackathonsList extends React.Component {
                 devpost: "https://devpost.com/software/waterly"
             },
             {
+=======
+                id: 0,
+>>>>>>> 11b2fc60bb6e14dfd7bd4cfbc37886dc4556a00c
                 name: "Hack UCI 2019",
                 description: `Given 36 hours we wanted to build an IDE that helps
                 professors and TA's easily administer coding assignments. Instructors generate a unique
@@ -27,6 +31,7 @@ class HackathonsList extends React.Component {
                 devpost: "https://devpost.com/software/code-tutor"
             },
             {
+                id: 1,
                 name: "SB Hacks 2019",
                 description: `Ever notice that everytime you log onto Facebook to look
                 something up you get distracted and before you know it you just wasted
@@ -39,6 +44,7 @@ class HackathonsList extends React.Component {
                 devpost: "https://devpost.com/software/youni"
             },
             {
+                id: 2,
                 name: "LA Hacks 2018",
                 description: `Since this was my second hackathon I was determined to build a working application. 
                 I was excited to form a team with students from Oregon State University and USC. 
@@ -48,6 +54,7 @@ class HackathonsList extends React.Component {
                 github: "https://github.com/jeanietwo/botbucks"
             },
             {
+                id: 3,
                 name: "Hack UCI 2018",
                 description: `This was my first hackathon. I've heard so much about them and I was excited to
                 finally attend one. I formed a team with other UCI students. Our idea was to create a mobile app that
@@ -63,8 +70,12 @@ class HackathonsList extends React.Component {
     renderList = () => {
         return this.state.hackathons.map((hackathon, index) => {
             return (
+<<<<<<< HEAD
                 <Hackathon 
                     key={index}
+=======
+                <Hackathon key={hackathon.id}
+>>>>>>> 11b2fc60bb6e14dfd7bd4cfbc37886dc4556a00c
                     name={hackathon.name}
                     description={hackathon.description}
                     github={hackathon.github}
