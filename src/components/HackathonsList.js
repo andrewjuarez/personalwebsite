@@ -8,6 +8,15 @@ class HackathonsList extends React.Component {
         count: 0,
         hackathons: [
             {
+                name: "QWER Hacks 2020",
+                description: `MLH's first official LGBTQIA hackathon hosted at UCLA. Our team of 4 was
+                focused on sustainability. Given that water consumption is beyond than what is neccessary,
+                we wanted to challenge our users to conserve water. We built a React app to track water consumption
+                and to encourage the user to save water. We won best React app which I am very proud of.`,
+                github: "https://github.com/Dvnc94/Waterly",
+                devpost: "https://devpost.com/software/waterly"
+            },
+            {
                 name: "Hack UCI 2019",
                 description: `Given 36 hours we wanted to build an IDE that helps
                 professors and TA's easily administer coding assignments. Instructors generate a unique
@@ -52,9 +61,10 @@ class HackathonsList extends React.Component {
     };
     
     renderList = () => {
-        return this.state.hackathons.map((hackathon) => {
+        return this.state.hackathons.map((hackathon, index) => {
             return (
                 <Hackathon 
+                    key={index}
                     name={hackathon.name}
                     description={hackathon.description}
                     github={hackathon.github}

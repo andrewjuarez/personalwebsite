@@ -3,7 +3,6 @@ import headshot from './headshot-cropped.jpg';
 import NameCard from './NameCard';
 import IntroCard from './IntroCard';
 import ExperienceCard from './ExperienceCard';
-import ContactCard from './ContactCard';
 import HackathonsList from './HackathonsList';
 import Footer from './Footer';
 
@@ -23,7 +22,6 @@ class HomePage extends React.Component {
                         
                             <IntroCard />
                             <ExperienceCard />
-                            <ContactCard />
                     </div>
                     <div className="column">
                         <img className="centered headshot ui medium circular image" src={headshot} alt='Andrew' />
